@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book a Course</title>
+    <style>
+        ul {
+            list-style: none;
+            
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="QA Corporate Logo">
+        <h1 style="background-image:url(images/trainer.jpg); padding: 4em 1em; color: white; background-size: cover">Course Registration</h1> 
+    </header>
+
+    
+    <form>
+        <fieldset>
+            <legend>Your Details</legend>
+        <ul>
+            <li>
+        <br>
+        <label>First Name:</label>
+        <input type="text" placeholder="enter first name" required autofocus>
+                </li>
+                    </ul>
+                    
+        <ul>
+            <li>
+        <br>
+        <label>Surname</label>
+        <input type="text" placeholder="Enter surname here">
+        </li>
+        </ul>
+
+        <ul>
+            <li>
+        <br>
+        <label>Position/Role</label>
+        <input type="text" placeholder="enter position/role here">
+        </li>
+        </ul>
+
+<ul>
+    <li>
+        <br>
+                <label>Email:</label>
+                <input type="text" name="id" placeholder="you@domain.com" required>
+                <br>
+            </li>
+</ul>
+            
+<ul>
+    <li>
+                <label>Telephone:</label>
+                <input type="number" name="telephone" placeholder="+4475000000000" required>
+                    <br>
+</li>
+</ul>
+
+            <button type="submit" >submit</button>
+
+
+    </fieldset>
+    </form>
+    
+    <form>
+        <fieldset>
+            <legend> Course details</legend>
+            
+               
+                
+                        
+                    <label>Course Type</label>
+                    
+                    
+                            <select name="course type"><option value="PWJ">Programming with Javascript</option><option value="DWAUH5">Developing Web Applications using HTML5</option><option value="DRW">Developing Responsive websites</option><option value="LTPOJ">Leveraging the power of jQuery</option></select>
+                            
+                    <br>
+                        
+                    
+                    <label>Delegate:</label>
+                            <input type="number" name="delegate" placeholder="enter value" required>
+                            
+
+                            
+                            <br>
+                            <label>Date:</label>
+                            <input type="date" id="date" name="date" required>
+                            
+                        
+                            <br>
+                            
+                <br>
+                                <button type="submit" >submit</button>
+            
+
+        </fieldset>
+        
+    </form>
+</body>
+</html>
